@@ -1,0 +1,66 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myRegistrationLabel" translate="mudskipperApp.registration.home.createOrEditLabel">Create or edit a Registration</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="registration.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.entity" for="field_entity">Entity</label>
+            <input type="text" class="form-control" name="entity" id="field_entity"
+                    ng-model="registration.entity"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.username" for="field_username">Username</label>
+            <input type="text" class="form-control" name="username" id="field_username"
+                    ng-model="registration.username"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.password" for="field_password">Password</label>
+            <input type="text" class="form-control" name="password" id="field_password"
+                    ng-model="registration.password"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.email" for="field_email">Email</label>
+            <input type="text" class="form-control" name="email" id="field_email"
+                    ng-model="registration.email"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.created" for="field_created">Created</label>
+            <input id="field_created" type="text" class="form-control" uib-datepicker-popup="{{dateformat}}" ng-model="registration.created" is-open="datePickerForCreated.status.opened"
+            />
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="datePickerForCreatedOpen($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="mudskipperApp.registration.modified" for="field_modified">Modified</label>
+            <input id="field_modified" type="text" class="form-control" uib-datepicker-popup="{{dateformat}}" ng-model="registration.modified" is-open="datePickerForModified.status.opened"
+            />
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="datePickerForModifiedOpen($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

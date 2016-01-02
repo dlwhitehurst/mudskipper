@@ -1,0 +1,27 @@
+{
+    "mudskipperApp": {
+        "registration" : {
+            "home": {
+                "title": "Registrations",
+                "createLabel": "Créer un nouveau Registration",
+                "createOrEditLabel": "Créer ou éditer un Registration"
+            },
+            "created": "Un nouveau Registration a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Registration avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Registration avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Registration {{ id }} ?"
+            },
+            "detail": {
+                "title": "Registration"
+            },
+            "entity": "Entity",
+            "username": "Username",
+            "password": "Password",
+            "email": "Email",
+            "created": "Created",
+            "modified": "Modified"
+        }
+    }
+}
+
