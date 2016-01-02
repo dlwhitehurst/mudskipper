@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "mudskipper",
+    "packageName": "com.ciwise.mudskipper",
+    "packageFolder": "com/ciwise/mudskipper",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "2e37a3a06df33dc3e8728477347039140e43220a",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
