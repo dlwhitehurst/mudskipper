@@ -1,5 +1,5 @@
 # mudskipper
-[!Build Status](https://travis-ci.org/dlwhitehurst/mudskipper?branch=master)])](https://travis-ci.org/dlwhitehurst/mudskipper)
+[![Build Status](https://travis-ci.org/dlwhitehurst/mudskipper?branch=master)])](https://travis-ci.org/dlwhitehurst/mudskipper)
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 
