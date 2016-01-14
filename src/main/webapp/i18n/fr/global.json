@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entités",
                 "registration": "Registration",
+                "genaccount": "Genaccount",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

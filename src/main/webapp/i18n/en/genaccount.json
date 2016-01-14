@@ -1,0 +1,22 @@
+{
+    "mudskipperApp": {
+        "genaccount" : {
+            "home": {
+                "title": "Genaccounts",
+                "createLabel": "Create a new Genaccount",
+                "createOrEditLabel": "Create or edit a Genaccount"
+            },
+            "created": "A new Genaccount is created with identifier {{ param }}",
+            "updated": "A Genaccount is updated with identifier {{ param }}",
+            "deleted": "A Genaccount is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Genaccount {{ id }}?"
+            },
+            "detail": {
+                "title": "Genaccount"
+            },
+            "name": "Name",
+            "acctno": "Acctno"
+        }
+    }
+}
