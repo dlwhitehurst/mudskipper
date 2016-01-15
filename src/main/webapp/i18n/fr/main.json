@@ -1,19 +1,19 @@
 {
     "main": {
-        "title": "Bienvenue, Java Hipster !",
-        "subtitle": "Ceci est votre page d'accueil",
+        "title": "Bienvenue, Mudskippers !",
+        "subtitle": "Une application et une piste de danse pour les indépendants Open Source Consultants",
         "logged": {
             "message": "Vous êtes connecté en tant que \"{{username}}\"."
         },
-        "question": "Si vous avez des questions à propos de JHipster:",
+        "question": "Si vous avez des questions à propos de Mudskipper:",
         "link": {
-            "homepage": "Page d'accueil de JHipster",
-            "stackoverflow": "JHipster sur Stack Overflow",
-            "bugtracker": "JHipster bug tracker",
-            "chat": "JHipster public chat room",
-            "contact": "Contactez-nous sur Twitter @java_hipster"
+            "homepage": "Page d'accueil de Mudskipper",
+            "stackoverflow": "Stack Overflow (en attente)",
+            "bugtracker": "JIRA (en attente)",
+            "chat": "Gitter (en attente)",
+            "contact": "Contactez-nous sur Twitter @dlwhitehurst"
         },
-        "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+        "like": "Si vous aimez Mudskipper, donnez nous une étoile sur",
         "github": "Github"
     }
 }

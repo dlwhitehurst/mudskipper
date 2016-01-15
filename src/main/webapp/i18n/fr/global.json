@@ -7,11 +7,9 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entités",
-                "registration": "Registration",
-                "genaccount": "Genaccount",
-                "genaccttype": "Genaccttype",
-                "genacct": "Genacct",
-                "genacctentry": "Genacctentry",
+                "genaccttype": "Général Type de Compte",
+                "genacct": "Compte Général",
+                "genacctentry": "Compte Général Entrée",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

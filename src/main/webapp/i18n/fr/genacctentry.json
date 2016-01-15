@@ -2,24 +2,24 @@
     "mudskipperApp": {
         "genacctentry" : {
             "home": {
-                "title": "Genacctentrys",
-                "createLabel": "Créer un nouveau Genacctentry",
-                "createOrEditLabel": "Créer ou éditer un Genacctentry"
+                "title": "Compte Général Entrées",
+                "createLabel": "Créer un nouveau Compte Général Entrée",
+                "createOrEditLabel": "Créer ou éditer un Compte Général Entrée"
             },
-            "created": "Un nouveau Genacctentry a été créé avec l'identifiant {{ param }}",
-            "updated": "Le Genacctentry avec l'identifiant {{ param }} a été mis à jour",
-            "deleted": "Le Genacctentry avec l'identifiant {{ param }} a été supprimé",
+            "created": "Un nouveau Compte Général Entrée a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Compte Général Entrée avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Compte Général Entrée avec l'identifiant {{ param }} a été supprimé",
             "delete": {
-                "question": "Etes-vous certain de vouloir supprimer le Genacctentry {{ id }} ?"
+                "question": "Etes-vous certain de vouloir supprimer le Compte Général Entrée {{ id }} ?"
             },
             "detail": {
-                "title": "Genacctentry"
+                "title": "Compte Général Entrée"
             },
             "entrytext": "Entrytext",
             "entrydate": "Entrydate",
             "debit": "Debit",
             "credit": "Credit",
-            "genacct": "Genacct"
+            "genacct": "Compte Général"
         }
     }
 }

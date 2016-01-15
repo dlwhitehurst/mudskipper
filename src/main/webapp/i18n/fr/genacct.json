@@ -2,23 +2,23 @@
     "mudskipperApp": {
         "genacct" : {
             "home": {
-                "title": "Genaccts",
-                "createLabel": "Créer un nouveau Genacct",
-                "createOrEditLabel": "Créer ou éditer un Genacct"
+                "title": "Comptes Généraux",
+                "createLabel": "Créer un nouveau Compte Général",
+                "createOrEditLabel": "Créer ou éditer un Compte Général"
             },
-            "created": "Un nouveau Genacct a été créé avec l'identifiant {{ param }}",
-            "updated": "Le Genacct avec l'identifiant {{ param }} a été mis à jour",
-            "deleted": "Le Genacct avec l'identifiant {{ param }} a été supprimé",
+            "created": "Un nouveau Compte Général a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Compte Général avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Compte Général avec l'identifiant {{ param }} a été supprimé",
             "delete": {
-                "question": "Etes-vous certain de vouloir supprimer le Genacct {{ id }} ?"
+                "question": "Etes-vous certain de vouloir supprimer le Compte Général {{ id }} ?"
             },
             "detail": {
-                "title": "Genacct"
+                "title": "Compte Général"
             },
             "name": "Name",
             "type": "Type",
             "acctno": "Acctno",
-            "genacctentry": "Genacctentry"
+            "genacctentry": "Compte Général Entrée"
         }
     }
 }
