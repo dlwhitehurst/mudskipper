@@ -2,24 +2,24 @@
     "mudskipperApp": {
         "genacctentry" : {
             "home": {
-                "title": "Genacctentrys",
-                "createLabel": "Create a new Genacctentry",
-                "createOrEditLabel": "Create or edit a Genacctentry"
+                "title": "General Account Entries",
+                "createLabel": "Create a new General Account Entry",
+                "createOrEditLabel": "Create or edit a General Account Entry"
             },
-            "created": "A new Genacctentry is created with identifier {{ param }}",
-            "updated": "A Genacctentry is updated with identifier {{ param }}",
-            "deleted": "A Genacctentry is deleted with identifier {{ param }}",
+            "created": "A new General Account Entry is created with identifier {{ param }}",
+            "updated": "A General Account Entry is updated with identifier {{ param }}",
+            "deleted": "A General Account Entry is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Genacctentry {{ id }}?"
+                "question": "Are you sure you want to delete General Account Entry {{ id }}?"
             },
             "detail": {
-                "title": "Genacctentry"
+                "title": "General Account Entry"
             },
             "entrytext": "Entrytext",
             "entrydate": "Entrydate",
             "debit": "Debit",
             "credit": "Credit",
-            "genacct": "Genacct"
+            "genacct": "General Account"
         }
     }
 }

@@ -2,18 +2,18 @@
     "mudskipperApp": {
         "genaccttype" : {
             "home": {
-                "title": "Genaccttypes",
-                "createLabel": "Create a new Genaccttype",
-                "createOrEditLabel": "Create or edit a Genaccttype"
+                "title": "General Account Types",
+                "createLabel": "Create a new General Account Type",
+                "createOrEditLabel": "Create or edit a General Account Type"
             },
-            "created": "A new Genaccttype is created with identifier {{ param }}",
-            "updated": "A Genaccttype is updated with identifier {{ param }}",
-            "deleted": "A Genaccttype is deleted with identifier {{ param }}",
+            "created": "A new General Account Type is created with identifier {{ param }}",
+            "updated": "A General Account Type is updated with identifier {{ param }}",
+            "deleted": "A General Account Type is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Genaccttype {{ id }}?"
+                "question": "Are you sure you want to delete General Account Type {{ id }}?"
             },
             "detail": {
-                "title": "Genaccttype"
+                "title": "General Account Type"
             },
             "name": "Name"
         }
