@@ -1,0 +1,25 @@
+{
+    "mudskipperApp": {
+        "genacct" : {
+            "home": {
+                "title": "Genaccts",
+                "createLabel": "Créer un nouveau Genacct",
+                "createOrEditLabel": "Créer ou éditer un Genacct"
+            },
+            "created": "Un nouveau Genacct a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Genacct avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Genacct avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Genacct {{ id }} ?"
+            },
+            "detail": {
+                "title": "Genacct"
+            },
+            "name": "Name",
+            "type": "Type",
+            "acctno": "Acctno",
+            "genacctentry": "Genacctentry"
+        }
+    }
+}
+

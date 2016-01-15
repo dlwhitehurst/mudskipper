@@ -1,0 +1,45 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "genacct",
+            "otherEntityName": "genacct",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "acctno"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "entrytext",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "entrydate",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "debit",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "credit",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20160115054906",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

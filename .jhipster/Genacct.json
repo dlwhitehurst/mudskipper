@@ -1,0 +1,45 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "genacctentry",
+            "otherEntityName": "genacctentry",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "genacct"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "128"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "type",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "80"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "acctno",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20160115054714",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

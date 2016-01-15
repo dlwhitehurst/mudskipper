@@ -1,0 +1,21 @@
+{
+    "mudskipperApp": {
+        "genaccttype" : {
+            "home": {
+                "title": "Genaccttypes",
+                "createLabel": "Create a new Genaccttype",
+                "createOrEditLabel": "Create or edit a Genaccttype"
+            },
+            "created": "A new Genaccttype is created with identifier {{ param }}",
+            "updated": "A Genaccttype is updated with identifier {{ param }}",
+            "deleted": "A Genaccttype is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Genaccttype {{ id }}?"
+            },
+            "detail": {
+                "title": "Genaccttype"
+            },
+            "name": "Name"
+        }
+    }
+}

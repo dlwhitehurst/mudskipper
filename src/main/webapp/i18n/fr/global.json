@@ -9,6 +9,9 @@
                 "main": "Entités",
                 "registration": "Registration",
                 "genaccount": "Genaccount",
+                "genaccttype": "Genaccttype",
+                "genacct": "Genacct",
+                "genacctentry": "Genacctentry",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
